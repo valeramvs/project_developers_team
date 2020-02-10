@@ -1,0 +1,123 @@
+.tabs {
+    width: 700px;
+    background: #a0d5e1;
+    margin: 50px auto;
+    padding-bottom: 15px;
+    font-family: Calibri;
+    color: black;
+}
+
+.tab {
+    display: inline-block;
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    border: 1px solid #bcbabe;
+    cursor: pointer;
+}
+
+form {
+    text-align: center;
+}
+
+button {
+    width: 250px;
+    background-color: #f1f1f2;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-family: Calibri;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+#addTask {
+    width: 70px;
+    border: none;
+    color: black;
+    padding: 5px;
+    text-align: center;
+    display: inline-block;
+    font-family: Calibri;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+#send_spec, #check_bill, #create_project, #check_project, #show_free_specs, #confirm_work_time {
+    width: 180px;
+    background-color: #f1f1f2;
+    border: none;
+    color: black;
+    padding: 10px 5px;
+    text-align: center;
+    font-family: Calibri;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.delete_spec {
+    width: 80px;
+    background-color: #a0d5e1;
+    border: none;
+    color: black;
+    padding: 5px;
+    text-align: center;
+    font-family: Calibri;
+    display: inline-block;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+#result_spec p, #result_bill p, #not_reviewed_specs p, #reviewed_specs p {
+    margin-right: 200px;
+    text-align: right;
+}
+
+table {
+    width: 500px;
+    margin: 10px auto;
+    border-collapse: collapse;
+}
+
+tr, th, td {
+    padding: 3px;
+    border: 1px solid black;
+}
+
+th {
+    background-color: #1995ad;
+    color: white;
+}
+
+td {
+    background-color: #f1f1f2;
+}
+table input {
+    width: 95px;
+}
+
+input[name="chooseSpec"] {
+    width: 10px;
+}
+
+.form_manager, .form_developer {
+    display: none;
+}
+
+.form_client div, .form_manager div, .form_developer div {
+    display: none;
+}
+
+.error {
+    color: #cb0000;
+}
+
+.info {
+    margin: auto;
+    text-align: center;
+    color: #666ecf;
+}

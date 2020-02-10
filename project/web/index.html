@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>Team of Developers</title>
+    <link rel="stylesheet" href="Style.css">
+    <script src="Script.js" defer></script>
+</head>
+<body>
+    <div class="tabs">
+        <div class="tabs_header">
+            <div class="tab" data-tab="0" style="background: #1995ad; color: white">for clients</div>
+            <div class="tab" data-tab="1">for managers</div>
+            <div class="tab" data-tab="2">for developers</div>
+        </div>
+        <div class="tabs_body">
+            <form method="post" class="form_client" autocomplete="off">
+                <p><button id="introduce_spec">Introduce specification</button></p>
+                <p><button id="show_bill">Check project's bill</button></p>
+                <div id="result_spec">
+                    <p>Enter your email: <input type="email" name="email_client" autofocus="autofocus" id="email_client"></p>
+                    <p><label id="email_error" class="error"></label></p>
+                    <p>Enter your name and surname: <input type="text" name="name_client" id="name_client"></p>
+                    <p>Enter specification name: <input type="text" name="name_spec" id="name_spec"></p>
+                    <label>Add a list of tasks with the number of required specialists for each qualification:</label>
+                    <table id="tasks_table">
+                        <tr>
+                            <th>Task's name</th>
+                            <th>Team leaders</th>
+                            <th>Seniors</th>
+                            <th>Middles</th>
+                            <th>Juniors</th>
+                        </tr>
+                        <tr>
+                            <td><input type="text" name="name_task"></td>
+                            <td><input type="text" name="team_leaders"></td>
+                            <td><input type="text" name="seniors"></td>
+                            <td><input type="text" name="middles"></td>
+                            <td><input type="text" name="juniors"></td>
+                        </tr>
+                    </table>
+                    <button id="addTask">Add line</button>
+                    <p></p><label id="spec_info" class="info"></label><p></p>
+                    <input type="submit" value="Send data to the manager" id="send_spec">
+                </div>
+                <div id="result_bill">
+                    <p>Enter your email: <input type="email" name="email_client" autofocus="autofocus" id="email_client_bill"></p>
+                    <p><label id="email_error_bill" class="error"></label></p>
+                    <p>Enter your name and surname: <input type="text" name="name_client" id="name_client_bill"></p>
+                    <input type="submit" value="Check bill" id="check_bill">
+                    <p></p><label id="bill_info" class="info"></label><p></p>
+                    <div id="client_info" style="display: none">
+                        <table id="client_table">
+                            <tr>
+                                <th>ID</th>
+                                <th>Name</th>
+                                <th>Email</th>
+                            </tr>
+                        </table>
+                        <p></p>
+                        <table id="specs_table">
+                            <tr>
+                                <th>ID</th>
+                                <th>Bill</th>
+                                <th>Manager's name</th>
+                                <th>Manager's email</th>
+                                <th>Action</th>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </form>
+            <form method="post" class="form_manager" autocomplete="off">
+                <p><button id="show_specs">Show not reviewed specs</button></p>
+                <p><button id="check_specs">Check project</button></p>
+                <div id="not_reviewed_specs">
+                    <p>Enter your email: <input type="email" name="email_manager" autofocus="autofocus" id="email_manager"></p>
+                    <p><label id="email_manager_error" class="error"></label></p>
+                    <p>Enter your name and surname: <input type="text" name="name_manager" id="name_manager"></p>
+                    <input type="submit" value="Show free specs" id="show_free_specs">
+                    <div id="free_specs" style="display: none">
+                        <table id="free_specs_table">
+                            <tr>
+                                <th></th>
+                                <th>ID</th>
+                                <th>Client's name</th>
+                                <th>Client's email</th>
+                                <th>Number of tasks</th>
+                                <th>Number of devs</th>
+                            </tr>
+                        </table>
+                        <input type="submit" value="Create project" id="create_project">
+                    </div>
+                    <p></p><label id="free_spec_error" class="error"></label>
+                    <p></p><label id="free_spec_info" class="info"></label><p></p>
+                </div>
+                <div id="reviewed_specs">
+                    <p>Enter your email: <input type="email" name="email_manager" autofocus="autofocus" id="email_manager_proj"></p>
+                    <p><label id="email_error_proj" class="error"></label></p>
+                    <p>Enter your name and surname: <input type="text" name="name_manager" id="name_manager_proj"></p>
+                    <input type="submit" value="Check my projects" id="check_project">
+                    <p></p><label id="project_info" class="info"></label><p></p>
+                    <div id="manager_info" style="display: none">
+                        <table id="manager_table">
+                            <tr>
+                                <th colspan="3">My personal data</th>
+                            </tr>
+                            <tr>
+                                <th>ID</th>
+                                <th>Name</th>
+                                <th>Email</th>
+                            </tr>
+                        </table>
+                        <p></p>
+                        <table id="project_table">
+                            <tr>
+                                <th colspan="4">My projects</th>
+                            </tr>
+                            <tr>
+                                <th>ID</th>
+                                <th>Bill</th>
+                                <th>Client's name</th>
+                                <th>Client's email</th>
+                            </tr>
+                        </table>
+                        <table id="project_tasks_table">
+                            <tr>
+                                <th colspan="6">Project's tasks</th>
+                            </tr>
+                            <tr>
+                                <th>ID</th>
+                                <th>Team leaders</th>
+                                <th>Seniors</th>
+                                <th>Middles</th>
+                                <th>Juniors</th>
+                                <th>Spec's ID</th>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </form>
+            <form method="post" class="form_developer" autocomplete="off">
+                <p><button id="set_work_time">Set the work time</button></p>
+                <p><button id="show_all_devs">Show all developers</button></p>
+                <div id="work_time">
+                    <p></p><label id="work_time_error" class="error"></label><p></p>
+                    <p></p><label id="work_time_info" class="info"></label><p></p>
+                    <div id="work_time_for_devs" style="display: none">
+                        <input type="submit" value="Confirm the changes" id="confirm_work_time">
+                        <table id="work_time_table">
+                            <tr>
+                                <th>ID</th>
+                                <th>Qualification</th>
+                                <th>Work time</th>
+                                <th>Spec's ID</th>
+                                <th>Task's ID</th>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+                <div id="all_devs">
+                    <table id="devs_table">
+                        <tr>
+                            <th>ID</th>
+                            <th>Qualification</th>
+                            <th>Work time</th>
+                            <th>Spec's ID</th>
+                            <th>Task's ID</th>
+                        </tr>
+                    </table>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

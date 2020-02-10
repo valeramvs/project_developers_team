@@ -1,0 +1,67 @@
+2020-02-10 11:34:25,160 INFO b.e.o.p.d.s.c.CheckBillServlet [http-nio-8080-exec-6] Data from form: todphilips@gmail.com Tod Philips
+2020-02-10 11:34:28,467 INFO b.e.o.p.d.c.ConnectionPool [http-nio-8080-exec-6] New connection was added to connection pool.
+2020-02-10 11:34:28,669 INFO b.e.o.p.d.c.ConnectionPool [http-nio-8080-exec-6] New connection was added to connection pool.
+2020-02-10 11:34:28,798 INFO b.e.o.p.d.c.ConnectionPool [http-nio-8080-exec-6] New connection was added to connection pool.
+2020-02-10 11:34:29,162 INFO b.e.o.p.d.d.AbstractDAO [http-nio-8080-exec-6] Statement is successfully closed.
+2020-02-10 11:34:29,162 INFO b.e.o.p.d.d.AbstractDAO [http-nio-8080-exec-6] Connection is successfully released.
+2020-02-10 11:34:29,457 INFO b.e.o.p.d.d.AbstractDAO [http-nio-8080-exec-6] Statement is successfully closed.
+2020-02-10 11:34:29,458 INFO b.e.o.p.d.d.AbstractDAO [http-nio-8080-exec-6] Connection is successfully released.
+2020-02-10 11:34:29,577 INFO b.e.o.p.d.d.AbstractDAO [http-nio-8080-exec-6] Statement is successfully closed.
+2020-02-10 11:34:29,578 INFO b.e.o.p.d.d.AbstractDAO [http-nio-8080-exec-6] Connection is successfully released.
+2020-02-10 11:34:29,586 INFO b.e.o.p.d.d.AbstractDAO [http-nio-8080-exec-6] Statement is successfully closed.
+2020-02-10 11:34:29,587 INFO b.e.o.p.d.d.AbstractDAO [http-nio-8080-exec-6] Connection is successfully released.
+2020-02-10 11:34:29,590 INFO b.e.o.p.d.d.AbstractDAO [http-nio-8080-exec-6] Statement is successfully closed.
+2020-02-10 11:34:29,590 INFO b.e.o.p.d.d.AbstractDAO [http-nio-8080-exec-6] Connection is successfully released.
+2020-02-10 11:34:29,594 INFO b.e.o.p.d.d.AbstractDAO [http-nio-8080-exec-6] Statement is successfully closed.
+2020-02-10 11:34:29,595 INFO b.e.o.p.d.d.AbstractDAO [http-nio-8080-exec-6] Connection is successfully released.
+2020-02-10 11:34:29,598 INFO b.e.o.p.d.d.AbstractDAO [http-nio-8080-exec-6] Statement is successfully closed.
+2020-02-10 11:34:29,599 INFO b.e.o.p.d.d.AbstractDAO [http-nio-8080-exec-6] Connection is successfully released.
+2020-02-10 11:35:24,815 INFO b.e.o.p.d.s.m.ShowSpecsServlet [http-nio-8080-exec-8] Data from form: kirakim@gmail.com Kira Kim
+2020-02-10 11:35:24,819 INFO b.e.o.p.d.d.AbstractDAO [http-nio-8080-exec-8] Statement is successfully closed.
+2020-02-10 11:35:24,819 INFO b.e.o.p.d.d.AbstractDAO [http-nio-8080-exec-8] Connection is successfully released.
+2020-02-10 11:35:24,821 INFO b.e.o.p.d.d.AbstractDAO [http-nio-8080-exec-8] Statement is successfully closed.
+2020-02-10 11:35:24,821 INFO b.e.o.p.d.d.AbstractDAO [http-nio-8080-exec-8] Connection is successfully released.
+2020-02-10 11:35:37,015 INFO b.e.o.p.d.s.m.CheckSpecsServlet [http-nio-8080-exec-10] Data from form: kirakim@gmail.com Kira Kimm
+2020-02-10 11:35:37,021 INFO b.e.o.p.d.d.AbstractDAO [http-nio-8080-exec-10] Statement is successfully closed.
+2020-02-10 11:35:37,021 INFO b.e.o.p.d.d.AbstractDAO [http-nio-8080-exec-10] Connection is successfully released.
+2020-02-10 11:35:41,221 INFO b.e.o.p.d.s.m.CheckSpecsServlet [http-nio-8080-exec-1] Data from form: kirakim@gmail.com Kira Kim
+2020-02-10 11:35:41,223 INFO b.e.o.p.d.d.AbstractDAO [http-nio-8080-exec-1] Statement is successfully closed.
+2020-02-10 11:35:41,224 INFO b.e.o.p.d.d.AbstractDAO [http-nio-8080-exec-1] Connection is successfully released.
+2020-02-10 11:35:41,245 INFO b.e.o.p.d.d.AbstractDAO [http-nio-8080-exec-1] Statement is successfully closed.
+2020-02-10 11:35:41,246 INFO b.e.o.p.d.d.AbstractDAO [http-nio-8080-exec-1] Connection is successfully released.
+2020-02-10 11:35:41,247 INFO b.e.o.p.d.d.AbstractDAO [http-nio-8080-exec-1] Statement is successfully closed.
+2020-02-10 11:35:41,247 INFO b.e.o.p.d.d.AbstractDAO [http-nio-8080-exec-1] Connection is successfully released.
+2020-02-10 11:35:41,249 INFO b.e.o.p.d.d.AbstractDAO [http-nio-8080-exec-1] Statement is successfully closed.
+2020-02-10 11:35:41,249 INFO b.e.o.p.d.d.AbstractDAO [http-nio-8080-exec-1] Connection is successfully released.
+2020-02-10 11:35:41,250 INFO b.e.o.p.d.d.AbstractDAO [http-nio-8080-exec-1] Statement is successfully closed.
+2020-02-10 11:35:41,251 INFO b.e.o.p.d.d.AbstractDAO [http-nio-8080-exec-1] Connection is successfully released.
+2020-02-10 11:35:41,260 INFO b.e.o.p.d.d.AbstractDAO [http-nio-8080-exec-1] Statement is successfully closed.
+2020-02-10 11:35:41,260 INFO b.e.o.p.d.d.AbstractDAO [http-nio-8080-exec-1] Connection is successfully released.
+2020-02-10 11:35:41,261 INFO b.e.o.p.d.d.AbstractDAO [http-nio-8080-exec-1] Statement is successfully closed.
+2020-02-10 11:35:41,261 INFO b.e.o.p.d.d.AbstractDAO [http-nio-8080-exec-1] Connection is successfully released.
+2020-02-10 11:35:41,262 INFO b.e.o.p.d.d.AbstractDAO [http-nio-8080-exec-1] Statement is successfully closed.
+2020-02-10 11:35:41,262 INFO b.e.o.p.d.d.AbstractDAO [http-nio-8080-exec-1] Connection is successfully released.
+2020-02-10 11:35:41,263 INFO b.e.o.p.d.d.AbstractDAO [http-nio-8080-exec-1] Statement is successfully closed.
+2020-02-10 11:35:41,263 INFO b.e.o.p.d.d.AbstractDAO [http-nio-8080-exec-1] Connection is successfully released.
+2020-02-10 11:35:41,264 INFO b.e.o.p.d.d.AbstractDAO [http-nio-8080-exec-1] Statement is successfully closed.
+2020-02-10 11:35:41,264 INFO b.e.o.p.d.d.AbstractDAO [http-nio-8080-exec-1] Connection is successfully released.
+2020-02-10 11:35:41,507 INFO b.e.o.p.d.d.AbstractDAO [http-nio-8080-exec-1] Statement is successfully closed.
+2020-02-10 11:35:41,507 INFO b.e.o.p.d.d.AbstractDAO [http-nio-8080-exec-1] Connection is successfully released.
+2020-02-10 11:35:41,511 INFO b.e.o.p.d.d.AbstractDAO [http-nio-8080-exec-1] Statement is successfully closed.
+2020-02-10 11:35:41,511 INFO b.e.o.p.d.d.AbstractDAO [http-nio-8080-exec-1] Connection is successfully released.
+2020-02-10 11:35:41,513 INFO b.e.o.p.d.d.AbstractDAO [http-nio-8080-exec-1] Statement is successfully closed.
+2020-02-10 11:35:41,513 INFO b.e.o.p.d.d.AbstractDAO [http-nio-8080-exec-1] Connection is successfully released.
+2020-02-10 11:35:41,516 INFO b.e.o.p.d.d.AbstractDAO [http-nio-8080-exec-1] Statement is successfully closed.
+2020-02-10 11:35:41,516 INFO b.e.o.p.d.d.AbstractDAO [http-nio-8080-exec-1] Connection is successfully released.
+2020-02-10 11:35:41,518 INFO b.e.o.p.d.d.AbstractDAO [http-nio-8080-exec-1] Statement is successfully closed.
+2020-02-10 11:35:41,518 INFO b.e.o.p.d.d.AbstractDAO [http-nio-8080-exec-1] Connection is successfully released.
+2020-02-10 11:35:41,520 INFO b.e.o.p.d.d.AbstractDAO [http-nio-8080-exec-1] Statement is successfully closed.
+2020-02-10 11:35:41,521 INFO b.e.o.p.d.d.AbstractDAO [http-nio-8080-exec-1] Connection is successfully released.
+2020-02-10 11:35:41,523 INFO b.e.o.p.d.d.AbstractDAO [http-nio-8080-exec-1] Statement is successfully closed.
+2020-02-10 11:35:41,523 INFO b.e.o.p.d.d.AbstractDAO [http-nio-8080-exec-1] Connection is successfully released.
+2020-02-10 11:35:41,525 INFO b.e.o.p.d.d.AbstractDAO [http-nio-8080-exec-1] Statement is successfully closed.
+2020-02-10 11:35:41,526 INFO b.e.o.p.d.d.AbstractDAO [http-nio-8080-exec-1] Connection is successfully released.
+2020-02-10 11:35:57,035 INFO b.e.o.p.d.d.AbstractDAO [http-nio-8080-exec-3] Statement is successfully closed.
+2020-02-10 11:35:57,036 INFO b.e.o.p.d.d.AbstractDAO [http-nio-8080-exec-3] Connection is successfully released.
+2020-02-10 11:35:58,961 INFO b.e.o.p.d.d.AbstractDAO [http-nio-8080-exec-5] Statement is successfully closed.
+2020-02-10 11:35:58,961 INFO b.e.o.p.d.d.AbstractDAO [http-nio-8080-exec-5] Connection is successfully released.
